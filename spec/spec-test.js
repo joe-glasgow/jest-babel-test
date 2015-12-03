@@ -12,5 +12,5 @@ describe('addition', () => {
 	it('adds numbers', () =>{
 		// workout why this is undefined
 		expect(value).toBe(undefined);
-	})
+	});
 })

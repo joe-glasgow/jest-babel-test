@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "babel": "^6.1.18",
+    "babel-core": "^6.0.0",
+    "babel-jest": "^6.0.1",
+    "babel-preset-es2015": "^6.1.18",
+    "jest-cli": "*",
+    "regenerator": "^0.8.42"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest-babel": {
+    "stage": 1,
+    "extensions": [
+      "es6",
+      "customext"
+    ]
+  },
+  "jest": {
+    "scriptPreprocessor": "node_modules/babel-jest",
+    "testFileExtensions": ["es6", "js"],
+    "moduleFileExtensions": ["js", "json", "es6"],
+    "testDirectoryName": "spec"
+  },
+  "name": "babel-jest-test",
+  "version": "0.0.1",
+  "description": "Test",
+  "main": "index.js",
+  "author": "Joe Morrison",
+  "license": "BSD-2-Clause"
+}
